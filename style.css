@@ -1,0 +1,36 @@
+fieldset > label:not(:last-child) {
+  display: block;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+input[type="number"] {
+  width: 169px;
+}
+
+input[type="radio"] {
+  margin: 3px 3px 14px 5px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 14px;
+}
+
+input[type="range"] {
+  margin: 12px 2px 14px;
+}
+
+.additional {
+  padding-bottom: 10px;
+}
+
+.additional label {
+  padding-bottom: 10px;
+}
